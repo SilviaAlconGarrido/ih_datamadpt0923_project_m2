@@ -1,78 +1,67 @@
-<p align="left"><img src="https://cdn-images-1.medium.com/max/184/1*2GDcaeYIx_bQAZLxWM4PsQ@2x.png"></p>
+![imagen](images/fondo.jpeg)
 
-# __ih_datamadpt0923_project_m2__
+# Find your movie.
 
-![Image](https://github.com/ih-datapt-mad/ih_datamadpt0923_project_m2/blob/main/images/visuals.jpg)
+Are you tired of not knowing what movie to watch? Do you argue over what movie to play? With this dashboards I will help you finding the best movie and your only concern will be to find will be chosing the best type of popcorn.
 
-Data analytics is oftentimes referred to as business intelligence, BI development, or product analytics. However, that is just the tip of the iceberg since the data analytics process includes activities such as data formation/creation, data cleansing, exploratory data analysis (especially this part), feature engineering, and interpretation of suggestions/predictions/results derived from advanced modelling analysis (i.e.: Machine Learning).
+- BI Report/Dashboard: 
 
-For this project you will perform some of these activities in order to analyse a __dataset of your interest__.
+https://public.tableau.com/views/Encuentratupelcula_1920-2020/Story1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link
 
+## :footprints: First steps.
 
----
+This is the project for the second module of Inronhack's Bootcamp.
 
+## :stuck_out_tongue_winking_eye: Dashboard:
 
+In this dashboard we work with data from movies between years 1920 and 2000, we help you finding that movie you missed and always wanted to watch.
 
-## **Deliverables:**
+## :thought_balloon: What does the project do?
 
-A GitHub repository including:
+You can see all the movies at a glance filtering by the genre you like the most and choose the top 10 based on the IMBD rating.
 
-- A `data model` showing the table schemas and relations between them. You may use an application such as [DBdiagram](https://dbdiagram.io/).
+- Movies by genre and IMBD.
 
-- A `functional design mockup` where the dashboard parts and functionalities must be represented. This document should be an starting point, meaning that the final product can be different. You may use any tool you want, however, it is highly recommended to use _ink and paper_!!!
+- Top 10 movies.
 
-- A `BI Report/Dashboard` meeting the requeriments specified in __Challenge 1__. If you use __Tableau__ you need to include the _Tableau Public link_ to the reporting app. If you use __Power BI__ you need to include the `.pbix` file in your repo. 
+- Top 10 sells VS IMDB.
 
-- A `README.md` file explaining the job done, the reporting app architecture and your main conclusions after the exploratory data analysis. You may find more info of how to build a README file [here](https://github.com/potacho/data-project-template/blob/master/README.md).
+- Directors VS money.
 
+- Best selling movies.
 
+- Most popular genre.
 
----
+## :movie_camera: Additionally:
 
+- Data model:
 
+![imagen](images/data_model.png)
 
-## **Presentation:**
+- Functional design mockup:
+![imagen](images/Mockup_2.png)
 
-- __Time:__ 5 minutes __sharp__.
+- BI Report/Dashboard: 
 
-- __Content:__ eventhough the perfect report/dashboard should be selfexplanatory, you'll need to explain the reporting architecture and show its funtionalities. Also, you'll need to give actionable insights about your data and support your arguments using the report.
+https://public.tableau.com/views/Encuentratupelcula_1920-2020/Story1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link
 
-<p align="center"><img src="https://media.giphy.com/media/1Ygis29YXMS35cW90I/giphy.gif"></p>
+## 	:see_no_evil: Project structure:
 
-
-> __IMPORTANT NOTE:__ You only need your BI Report/Dashboard for the presentation (i.e.: no Jupyter, no PowerPoint/Canva)
-
-
-
----
-
-
-
-## __Challenge 1: BI Report/Dashboard__
-
-BI Reports and Dashboards are powerful tools for communicating important information __at-a-glance__. The goal of this challenge is to build a BI Report/Dashboard using a dataset of your choice. Bear in mind the __purpose__ of the report and build a __normalized__ model that fits your visualization requeriments and interactivity performance.
-
-You may use either __Tableau__ or __Power BI__ as your main tool for creating your reporting app. There are not restictions about the data source location or format (local drive, database, multiformat, etc.).
-
-> __Tip:__ you should first consider which data and which indicators should be put on the BI Report/Dashboard. Then, decompose the key indicators from multiple dimensions. 
-
-<p align="center"><img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif"></p>
-
-
-A BI Report/Dashboard is not exactly a sequential set of descriptive charts. Instead, a BI Report/Dashboard should be __a single interactive interface built around a specific objetive and which components are logically arranged in order to provide data relevant insights effectively__.
-
-
-
----
+``` bash
+Proyect_m2/
+│── data
+│   ├── data_movie.csv
+│   ├── imdb_top_1000.csv
+│   ├── untitled.txt
+│   └── visualizacion data.ipynb
+├── images
+│   ├── data_model.png
+│   └── fondo.jpeg
+├── .gitignore
+├── LICENSE
+├── main.py
+└── README.md
+```
 
 
 
-## **References:**
-
-- [Visual Analysis Best Practices](https://github.com/ih-datapt-mad/ih_datamadpt0923_project_m2/blob/main/images/visual-analysis-guidebook.pdf)
-
-- [Financial Times Visual Vocabulary](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary)
-
-- [Tableau](https://github.com/ih-datapt-mad/dataptmad0923_lessons/blob/main/m2/20240110_bi_tableau.md)
-
-- [Power BI](https://github.com/ih-datapt-mad/dataptmad0923_lessons/blob/main/m2/20240113_bi_pbi.md)
